@@ -423,6 +423,25 @@ nav {
     background:#f8f8f8;
 }
 
+
+#item-count{
+    margin:15px 0;
+    text-align:center;
+}
+
+#empty-message{
+    text-align:center;
+    font-size:18px;
+    color:#666;
+    margin:20px 0;
+}
+
+#checkoutBtn:disabled{
+    opacity:0.6;
+    cursor:not-allowed;
+}
+
+
 footer{
     text-align:center;
     padding:20px;
