@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GiftHub Admin Dashboard</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">
+        <h2>GiftHub Admin</h2>
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#" id="logoutBtn">Logout</a></li>
+    </ul>
+</nav>
+
+<section class="featured-products">
+
+    <h1>Admin Dashboard</h1>
+
+    <div class="dashboard-cards">
+
+        <div class="product-card">
+            <h2>Total Orders</h2>
+            <h1 id="totalOrders">0</h1>
+        </div>
+
+        <div class="product-card">
+            <h2>Pending Orders</h2>
+            <h1 id="pendingOrders">0</h1>
+        </div>
+
+    </div>
+
+    <br>
+
+    <table id="ordersTable" border="1" width="100%" cellspacing="0">
+
+        <thead>
+
+        <tr>
+
+            <th>ID</th>
+            <th>Customer</th>
+            <th>Email</th>
+            <th>Total</th>
+            <th>Payment</th>
+            <th>Status</th>
+            <th>Action</th>
+
+        </tr>
+
+        </thead>
+
+        <tbody>
+
+        </tbody>
+
+    </table>
+
+</section>
+
+<script src="js/admin.js"></script>
+
+</body>
+</html>
