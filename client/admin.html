@@ -22,39 +22,49 @@
 
 <section class="featured-products">
 
-    <h1>Admin Dashboard</h1>
+    <h1 style="text-align:center;margin-bottom:30px;">
+        📊 Admin Dashboard
+    </h1>
 
     <div class="dashboard-cards">
 
-        <div class="product-card">
-            <h2>Total Orders</h2>
+        <div class="dashboard-card">
+            <h3>Total Orders</h3>
             <h1 id="totalOrders">0</h1>
         </div>
 
-        <div class="product-card">
-            <h2>Pending Orders</h2>
+        <div class="dashboard-card">
+            <h3>Pending Orders</h3>
             <h1 id="pendingOrders">0</h1>
+        </div>
+
+        <div class="dashboard-card">
+            <h3>Completed Orders</h3>
+            <h1 id="completedOrders">0</h1>
+        </div>
+
+        <div class="dashboard-card">
+            <h3>Total Revenue</h3>
+            <h1 id="totalRevenue">ETB 0</h1>
         </div>
 
     </div>
 
     <br>
 
-    <table id="ordersTable" border="1" width="100%" cellspacing="0">
+    <table id="ordersTable">
 
         <thead>
 
-        <tr>
-
-            <th>ID</th>
-            <th>Customer</th>
-            <th>Email</th>
-            <th>Total</th>
-            <th>Payment</th>
-            <th>Status</th>
-            <th>Action</th>
-
-        </tr>
+            <tr>
+                <th>ID</th>
+                <th>Customer</th>
+                <th>Email</th>
+                <th>Total</th>
+                <th>Payment</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
 
         </thead>
 
