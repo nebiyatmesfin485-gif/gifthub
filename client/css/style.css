@@ -441,6 +441,34 @@ nav {
     cursor:not-allowed;
 }
 
+.order-card{
+    background:white;
+    border-radius:10px;
+    padding:20px;
+    margin:20px auto;
+    max-width:700px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.status{
+    padding:5px 12px;
+    border-radius:20px;
+    font-weight:bold;
+}
+
+.pending{
+    background:#fff3cd;
+}
+
+.processing{
+    background:#cfe2ff;
+}
+
+.delivered{
+    background:#d1e7dd;
+}
+
+
 
 footer{
     text-align:center;
