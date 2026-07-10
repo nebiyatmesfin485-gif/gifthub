@@ -377,6 +377,26 @@ nav {
     border-radius:6px;
     border:1px solid #ccc;
 }
+.search-box{
+    text-align:center;
+    margin:20px 0;
+}
+
+.search-box input{
+    width:320px;
+    max-width:90%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+}
+
+.search-box input:focus{
+    outline:none;
+    border-color:#ff6b6b;
+}
+
+
 
 .why-us{
     padding:50px;
