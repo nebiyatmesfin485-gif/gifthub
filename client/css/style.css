@@ -365,6 +365,52 @@ nav {
     background:#333;
     color:white;
 }
+
+.search-section{
+    text-align:center;
+    padding:40px;
+}
+
+.search-section input{
+    width:320px;
+    padding:12px;
+    border-radius:6px;
+    border:1px solid #ccc;
+}
+
+.why-us{
+    padding:50px;
+    text-align:center;
+}
+
+.why-container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.why-card{
+    width:250px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
+.contact{
+    text-align:center;
+    padding:40px;
+    background:#f8f8f8;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+}
+
+
+
+
 footer{
     background:#222;
     color:white;
